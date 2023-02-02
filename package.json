@@ -1,4 +1,6 @@
 {
+  "name": "heynautre",
+  "version": "0.1.0",
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
@@ -12,7 +14,22 @@
     "static": "^2.0.0"
   },
   "scripts": {
-    "start" : "node ./bin/www.js"
-  }
-  
+    "start": "node ./bin/www.js"
+  },
+  "main": "app.js",
+  "bin": {
+    "heynautre": "bin/www.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guswjd6476/heynature.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guswjd6476/heynature/issues"
+  },
+  "homepage": "https://github.com/guswjd6476/heynature#readme",
+  "description": ""
 }
